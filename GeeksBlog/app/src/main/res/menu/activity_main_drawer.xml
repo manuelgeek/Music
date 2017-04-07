@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gen"
+            android:icon="@drawable/ic_fiber_new_black_24dp"
+            android:title="General" />
+        <item
+            android:id="@+id/nav_web"
+            android:icon="@drawable/ic_cloud_circle_black_24dp"
+            android:title="Web Dev" />
+        <item
+            android:id="@+id/nav_game"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Games" />
+        <item
+            android:id="@+id/nav_mob"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Mobile Dev" />
+        <item
+            android:id="@+id/nav_con"
+            android:icon="@drawable/ic_phone_in_talk_black_24dp"
+            android:title="Contact" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_prof"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_log"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Log In" />
+        </menu>
+    </item>
+
+</menu>

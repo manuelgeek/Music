@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ke.co.appslab.manuel.geeksblog.Contact"
+    tools:showIn="@layout/activity_contact">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Talk to us today. We value your feedback"
+        android:padding="15dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Names"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/coname"
+            android:inputType="text"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Email"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+       />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/coemail"
+        android:inputType="textWebEmailAddress"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Message"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/comess"
+        android:inputType="text"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/cosend"
+        android:text="Send"
+        android:onClick="sendSms"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:text="Email Us"
+        android:background="@color/colorPrimary"
+        android:id="@+id/comailer"
+        android:onClick="sendMail"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:layout_gravity="center"
+    android:text="Our Location"
+    android:background="@color/colorPrimary"
+    android:id="@+id/comap"
+    android:onClick="viewMap"/>
+</LinearLayout>
+    </ScrollView>
+
+
+</android.support.v4.widget.NestedScrollView>

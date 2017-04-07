@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Geeks Blog</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_contact">Contact</string>
+    <string-array name="Member_names">
+        <item>JavaScript</item>
+        <item>PHP</item>
+        <item>HTML5 and CSS</item>
+        <item>Java Web</item>
+        <item>Java Android</item>
+        <item>Microsoft C#</item>
+        <item>Embeded C</item>
+        <item>Node JS</item>
+    </string-array>
+    <string-array name="profile_pics">
+        <item>@drawable/barry</item>
+        <item>@drawable/spm</item>
+        <item>@drawable/oliver</item>
+        <item>@drawable/felicity</item>
+        <item>@drawable/capt</item>
+        <item>@drawable/bat</item>
+        <item>@drawable/cr7</item>
+        <item>@drawable/im</item>
+    </string-array>
+    <string-array name="statuses">
+        <item>This is a trial text not meant to make any sense. Does this make any sense now. Ok it has no sense.</item>
+        <item>This is a trial text not meant to make any sense. Does this make any sense now. Ok it has no sense.</item>
+        <item>This is a trial text not meant to make any sense. Does this make any sense now. Ok it has no sense.</item>
+        <item>This is a trial text not meant to make any sense. Does this make any sense now. Ok it has no sense.</item>
+        <item>This is a trial text not meant to make any sense. Does this make any sense now. Ok it has no sense.</item>
+        <item>This is a trial text not meant to make any sense. Does this make any sense now. Ok it has no sense.</item>
+        <item>This is a trial text not meant to make any sense. Does this make any sense now. Ok it has no sense.</item>
+        <item>This is a trial text not meant to make any sense. Does this make any sense now. Ok it has no sense.</item>
+    </string-array>
+    <string-array name="contactType">
+        <item>3 Hours ago</item>
+        <item>3 Hours ago</item>
+        <item>3 Hours ago</item>
+        <item>3 Hours ago</item>
+        <item>3 Hours ago</item>
+        <item>3 Hours ago</item>
+        <item>3 Hours ago</item>
+        <item>3 Hours ago</item>
+
+    </string-array>
+</resources>
